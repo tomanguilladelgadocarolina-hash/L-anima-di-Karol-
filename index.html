@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#080808">
+<link rel="manifest" href="manifest.webmanifest">
   <title>Emozioni Rimate - L'anima di Karol</title>
 
   <style>
@@ -177,6 +178,12 @@
     © 2026 Carolina Tomanguilla Delgado<br>
     Firma d'autrice: C.T.D.
   </footer>
-
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js");
+  });
+}
+</script>
 </body>
 </html>
