@@ -1,0 +1,9 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="100" fill="#080808"/>
+  <rect x="18" y="18" width="476" height="476" rx="85" fill="none" stroke="#d6b46e" stroke-width="8"/>
+  <circle cx="256" cy="210" r="115" fill="none" stroke="#d6b46e" stroke-width="3"/>
+  <text x="256" y="230" text-anchor="middle" font-family="Georgia,serif" font-size="65" fill="#d6b46e">C.T.D.</text>
+  <path d="M150 320 Q256 370 362 320" fill="none" stroke="#d6b46e" stroke-width="4"/>
+  <text x="256" y="410" text-anchor="middle" font-family="Georgia,serif" font-size="25" letter-spacing="5" fill="#d6b46e">POESIA</text>
+</svg>
